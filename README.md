@@ -72,7 +72,7 @@ NACLs are great for setting **broad security rules** — for instance, blocking 
 | Feature                | Security Groups                | Network ACLs                  |
 |------------------------|--------------------------------|-------------------------------|
 | Scope                  | Instance-level                 | Subnet-level                  |
-| Stateful               | ✅ Yes                         | ❌ No (stateless)             |
+| Stateful               |  Yes                         |  No (stateless)             |
 | Default behavior       | Deny inbound, allow outbound   | Allow all (default NACL)      |
 | Rule evaluation        | All rules are evaluated        | Rules evaluated in order      |
 | Use case               | Fine-grained access control    | Broad subnet-wide restrictions|
