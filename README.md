@@ -8,7 +8,7 @@ This project demonstrates the setup of **route tables**, **security groups**, an
 
 ## 🛰️ Route Tables
 
-Route tables act like a GPS for your VPC resources. They contain a set of rules — *routes* — that determine how network traffic is directed within and outside of your VPC.
+Route tables act like a GPS for your VPC resources. They contain a set of rules, *routes*, that determine how network traffic is directed within and outside of your VPC.
 
 ### Key Concepts:
 
@@ -63,7 +63,7 @@ Network ACLs act as a subnet-level security filter, inspecting all traffic *ente
 - Default NACLs: Allow all traffic.
 - Custom NACLs: Deny all traffic by default until rules are defined.
 
-NACLs are great for setting **broad security rules** — for instance, blocking all traffic from a suspicious IP range.
+NACLs are great for setting **broad security rules**. for instance, blocking all traffic from a suspicious IP range.
 
 ---
 
@@ -77,7 +77,7 @@ NACLs are great for setting **broad security rules** — for instance, blocking 
 | Rule evaluation        | All rules are evaluated        | Rules evaluated in order      |
 | Use case               | Fine-grained access control    | Broad subnet-wide restrictions|
 
-**Best Practice**: Use both in tandem — NACLs for broad subnet protections, and security groups for detailed control at the resource level. This layered security approach minimizes the risk of unauthorized access.
+**Best Practice**: Use both in tandem. NACLs for broad subnet protections, and security groups for detailed control at the resource level. This layered security approach minimizes the risk of unauthorized access.
 
 ---
 
